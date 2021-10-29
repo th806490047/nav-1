@@ -53,7 +53,7 @@ render();
 
 $(".addButton").on("click", () => {
   console.log("点了我？");
-  let url = window.prompt("请问你需要女人？");
+  let url = window.prompt("请输入网址");
   if (url.indexOf("http") !== 0) {
     url = "http://" + url;
   }
