@@ -175,7 +175,7 @@ window.onbeforeunload = function () {
   localStorage.setItem("x", string);
 };
 
-$(document).on('keypress', function (e) {
+$(document).on("keypress", function (e) {
   var key = e.key;
 
   for (var i = 0; i < hashMap.length; i++) {
@@ -213,7 +213,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1329" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4925" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
